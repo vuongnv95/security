@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name_pf">PFLockScreen</string>
+    <string name="cancel_pf">Cancel</string>
+    <string name="use_pin_pf">Use pin</string>
+    <string name="sign_in_pf">Sign in</string>
+    <string name="ok_pf">OK</string>
+    <string name="next_pf">Next</string>
+    <string name="forgot_pf">Quên?</string>
+    <string name="lock_screen_title_pf">Nhập passcode</string>
+    <string name="settings_pf">Settings</string>
+    <string name="no_fingerprints_message_pf">Vân tay không tìm thấy.Hãy tới cài đặt và mở chế độ vân tay."</string>
+    <string name="no_fingerprints_title_pf">"Không hỗ trợ"</string>
+
+    <string name="fingerprint_not_recognized_pf">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success_pf">Fingerprint recognized</string>
+    <string name="fingerprint_description_pf">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint_pf">Touch sensor</string>
+    <string name="description_fingerprint_icon_pf">Fingerprint icon</string>
+    <string name="request_input">Vui lòng nhập passcode để bắt đầu sử dụng</string>
+    <string name="confirm_pass">Xác nhận passcode</string>
+    <string name="confirm_requets_pass">Vui lòng nhập lại passcode vừa tạo</string>
+    <string name="security_finger">Bảo mật vân tay</string>
+    <string name="touch_finger">Vui lòng chạm vào cảm biến vân tay để bắt đầu ứng dụng</string>
+    <string name="cancel">Bỏ qua</string>
+
+</resources>

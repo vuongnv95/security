@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_pf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            style="?pf_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/lock_screen_title_pf"
+            android:textColor="@color/code_5E5C5C"
+            android:theme="@style/PFLockScreenTitleTextStyle" />
+
+        <TextView
+            style="?pf_title"
+            android:id="@+id/request_pin_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="15dp"
+            android:lines="1"
+            android:text="@string/request_input"
+            android:textColor="@color/code_989898"
+            android:textSize="16sp"
+            android:theme="@style/PFLockScreenTitleTextStyle" />
+
+        <com.beautycoder.pflockscreen.views.PFCodeView
+            android:id="@+id/code_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+
+            <!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+            <!--android:id="@+id/button_1"-->
+            <!--android:tint="@color/white"-->
+            <!--style="@style/Widget.MaterialComponents.FloatingActionButton"-->
+            <!--android:layout_width="@dimen/button_lock_screen_fp_size"-->
+            <!--android:layout_height="@dimen/button_lock_screen_fp_size"-->
+            <!--android:layout_gravity="center" />-->
+
+            <Button
+                android:id="@+id/button_1"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+
+            <Button
+                android:id="@+id/button_2"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/button_3"
+                    style="?pf_key_button"
+                    android:layout_width="@dimen/button_lock_screen_fp_size"
+                    android:layout_height="@dimen/button_lock_screen_fp_size"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/bg_number_click"
+                    android:elevation="4dp"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="horizontal">
+
+
+            <!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+            <!--android:id="@+id/button_1"-->
+            <!--android:tint="@color/white"-->
+            <!--style="@style/Widget.MaterialComponents.FloatingActionButton"-->
+            <!--android:layout_width="@dimen/button_lock_screen_fp_size"-->
+            <!--android:layout_height="@dimen/button_lock_screen_fp_size"-->
+            <!--android:layout_gravity="center" />-->
+
+            <Button
+                android:id="@+id/button_4"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+
+            <Button
+                android:id="@+id/button_5"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button_6"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="horizontal">
+
+
+            <!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+            <!--android:id="@+id/button_1"-->
+            <!--android:tint="@color/white"-->
+            <!--style="@style/Widget.MaterialComponents.FloatingActionButton"-->
+            <!--android:layout_width="@dimen/button_lock_screen_fp_size"-->
+            <!--android:layout_height="@dimen/button_lock_screen_fp_size"-->
+            <!--android:layout_gravity="center" />-->
+
+            <Button
+                android:id="@+id/button_7"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+
+            <Button
+                android:id="@+id/button_8"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button_9"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/button_left"
+                style="?pf_hint"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/side_button_background_pf"
+                android:clickable="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/forgot_pf"
+                android:textColor="@color/code_989898"
+                android:theme="@style/PFLockScreenHintTextStyle" />
+
+            <Button
+                android:id="@+id/button_0"
+                style="?pf_key_button"
+                android:layout_width="@dimen/button_lock_screen_fp_size"
+                android:layout_height="@dimen/button_lock_screen_fp_size"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/bg_number_click"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/button_right"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/button_delete"
+                style="?pf_delete_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="fp"
+                android:src="@drawable/ic_close"
+                android:theme="@style/PFLockScreenDeleteButtonStyle"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/button_finger_print"
+                style="?pf_fingerprint_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:src="@drawable/ic_fingerprint"
+                android:text="fp"
+                android:theme="@style/PFLockScreenFingerPrintButtonStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="circle_lock_screen_pf">#EE5555</color>
+    <color name="background_lock_screen_pf">#663333</color>
+    <color name="code_lock_screen_pf">#ffffff</color>
+    <color name="white_selector_pf">#66ffffff</color>
+    <color name="hint_color">#42000000</color>
+    <color name="warning_color">#f4511e</color>
+    <color name="success_color">#009688</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="code_5E5C5C">#5E5C5C</color>
+    <color name="code_989898">#989898</color>
+    <color name="code_E65045">#E65045</color>
+    <color name="code_4FE65045">#4FE65045</color>
+    <color name="code_251C1C">#251C1C</color>
+</resources>
